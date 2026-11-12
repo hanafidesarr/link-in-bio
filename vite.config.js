@@ -1,6 +1,4 @@
-const repositoryName = process.env.GITHUB_REPOSITORY?.split("/").pop();
-const basePath = process.env.VITE_BASE_PATH || (process.env.GITHUB_ACTIONS && repositoryName ? `/${repositoryName}/` : "/");
-
 export default {
-  base: basePath
+  // The site is served from the custom domain root, not /<repository-name>/.
+  base: "/"
 };
