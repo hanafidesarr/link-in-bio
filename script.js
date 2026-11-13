@@ -1,7 +1,7 @@
 const siteConfig = {
   links: [
     { title: "Official Website", description: "Discover Axeonsoft and our digital products.", url: "https://axeonsoft.com/", icon: "globe" },
-    { title: "Games", description: "Explore and play our games.", url: "https://games.axeonsoft.com/", image: "/assets/logo-catbox.png" },
+    { title: "Catbox Studio Games", description: "Explore and play our games.", url: "https://games.axeonsoft.com/", image: "/assets/logo-catbox.png" },
     { title: "Google Play", description: "Explore our Android games and applications.", url: "https://play.google.com/store/apps/developer?id=Axeonsoft", icon: "play" }
   ]
 };
