@@ -47,6 +47,7 @@ h1 { margin: 0; font-size: clamp(1.65rem, 7vw, 2.1rem); letter-spacing: .12em; l
 .link-card:focus-visible, .social-links a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 .link-icon { display: grid; flex: 0 0 46px; place-items: center; width: 46px; height: 46px; color: var(--accent); background: rgba(254, 192, 3, .1); border-radius: 12px; }
 .link-icon svg { width: 22px; height: 22px; fill: currentColor; }
+.link-icon img { width: 100%; height: 100%; border-radius: 10px; object-fit: cover; }
 .link-copy { min-width: 0; }
 .link-title { display: block; font-size: .96rem; font-weight: 700; letter-spacing: -.01em; }
 .link-description { display: block; margin-top: 4px; color: var(--muted); font-size: .76rem; line-height: 1.35; }
